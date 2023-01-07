@@ -1,0 +1,100 @@
+.svg-advantages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 120px;
+    background-color: var(--command-color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.list-advantages:not(:last-child) {
+    margin-bottom: 30px;
+}
+.heading-advantages{
+    width:270px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--black-color);
+    text-align: center;
+    margin-left: 90px;
+}
+.paragraph-advantages{
+    margin-top: 10px;
+    width: 450px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--grey-color);
+    
+}
+
+// 768px +
+@media screen and (min-width: 768px){
+    .svg-advantages{
+        width: 354px;
+    }
+    .our-advantages{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .list-advantages:nth-child(2n+1){
+        margin-right: 30px;
+    }
+    .paragraph-advantages{
+        width: 354px;
+        font-weight: 400;
+        line-height: 1.7;
+        color: var(--grey-color); 
+        text-align: left; 
+    }
+    .heading-advantages{
+        width: 270px;
+        font-weight: 700;
+        line-height: 1.1;
+        color: var(--black-color);
+        text-align: left;
+        margin-left: 0;
+    }
+}
+
+
+
+// 1200px +
+@media screen and (min-width: 1200px){
+    .svg-advantages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background-color: var(--command-color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.our-advantages{
+    display: flex;
+   
+}
+.list-advantages:not(:last-child) {
+    margin-right: 30px;
+}
+
+.heading-advantages{
+    width: 270px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--black-color);
+}
+.paragraph-advantages{
+    margin-top: 10px;
+    width: 270px;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--grey-color);
+}
+}

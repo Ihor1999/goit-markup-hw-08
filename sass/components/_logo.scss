@@ -1,0 +1,61 @@
+.header__logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.1;
+    color:var(--blue-color);
+}
+.logo_theme_light{
+    color:var(--black-color);
+}
+.logo-2{
+    display: block;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.1;
+    color: var(--blue-color);
+    text-align: center;
+}
+.logo_theme_dark{
+    color: var(--white-color);
+}
+
+// 768px +
+@media screen and (min-width: 768px){
+    .logo-2{
+        margin-left: 100px;
+        text-align:left;
+    }
+}
+
+
+
+// 1200px +
+@media screen and (min-width: 1200px){
+    .header__logo{
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        color:var(--blue-color);
+    }
+    .logo_theme_light{
+        color:var(--black-color);
+    } 
+    .logo-2{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        color: var(--blue-color);
+        margin-left: 0;
+    }
+    .logo_theme_dark{
+        color: var(--white-color);
+    }
+    
+    
+}
+
